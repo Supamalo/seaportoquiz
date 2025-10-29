@@ -7,7 +7,7 @@ export async function loadQuizData(env) {
 
     for (const file of quizFiles) {
       try {
-        const value = await env.kv_quiz.get(file);
+        const value = await env.sp_quiz.get(file);
         if (!value) {
           console.log(`KV: No value for ${file}`);
           continue;
