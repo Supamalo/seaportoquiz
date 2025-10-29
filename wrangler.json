@@ -1,9 +1,9 @@
 {
-  "name": "quizkk",
-  "compatibility_date": "2025-07-24",
+  "name": "seaportoquiz",
+  "compatibility_date": "2025-10-29",
   "main": "main.js",
   "kv_namespaces": [
-    { "binding": "kv_quiz", "id": "ce68783714d2458cb11e8817cc2d3449" },
-    { "binding": "kv_results", "id": "b64b10c45bf3400a8b808adb0fe2b02d" }
+    { "binding": "sp_quiz", "id": "70359524ede84ec688760c0b20b0dfad" },
+    { "binding": "sp_results", "id": "612d330a6d604cda99ae7af0ab8f03b6" }
   ]
 }
