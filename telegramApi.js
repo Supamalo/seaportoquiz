@@ -1,4 +1,4 @@
-const BOT_TOKEN = '8185828821:AAF8SNIaRLbNppARjeEOT78zfPw9AznfID0';
+const BOT_TOKEN = '7941518335:AAG0aB9eR47Q8AoHYb4FqJdun40bO7N751U';
 
 export async function sendMessage(chatId, text, replyMarkup = null) {
   const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
